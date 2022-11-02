@@ -3,8 +3,10 @@
 
 body {
     max-width: 100%;
-    font-size: 16px;
-    background-color: #fff;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(36, 100%, 99%);
+    
 }
 
 main {
@@ -21,14 +23,14 @@ header {
     max-width: 80%;
     flex-direction: row;
     justify-content: space-between;
-
+    margin: 0 auto;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    gap: 50px
-    ;
+    gap: 3rem;
+    list-style: none;
 }
 
 
@@ -40,7 +42,7 @@ nav ul {
     grid-template-columns: repeat(3, [col] 1fr);
     grid-template-rows: repeat(3, [row] 1fr);
     grid-gap: 15px;
-    border: 1px dashed #000;
+    margin-top: 30px;
 }
 
 .grid-item-1 {
@@ -59,14 +61,33 @@ nav ul {
 }
 
 .grid-item-3 {
-    background-color: rgb(31, 161, 63);
-       
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: start;
 }
 
 .grid-item-4 {
-    background-color:blue;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.btn_read_more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.btn_read_more a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+
 
 .grid-item-5 {
     background-color: red;
