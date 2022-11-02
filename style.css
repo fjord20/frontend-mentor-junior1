@@ -20,8 +20,17 @@ header {
     display: flex;
     max-width: 80%;
     flex-direction: row;
-    
+    justify-content: space-between;
+
 }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px
+    ;
+}
+
 
 
 .grid {
