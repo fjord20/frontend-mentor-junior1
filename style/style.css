@@ -39,10 +39,6 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 1fr 0.8fr;
-<<<<<<< HEAD
-    grid-auto-flow: row dense;
-=======
->>>>>>> 7a37b75 (update 2.1)
     grid-gap: 2rem;
     margin-top: 30px;
 }
@@ -120,14 +116,9 @@ nav ul {
     line-height: 1.5rem;
 }
 
-<<<<<<< HEAD
-.grid-item-3 {
-    font-size: 1.5rem;
-=======
 .grid-item-3 p {
     margin: 0;
     font-size: 3.5rem;
->>>>>>> 7a37b75 (update 2.1)
     font-weight: 800;
     text-align: start;
 }
@@ -144,10 +135,7 @@ nav ul {
 }
 
 .text-more p {
-<<<<<<< HEAD
-=======
     margin: 0;
->>>>>>> 7a37b75 (update 2.1)
     color: hsl(236, 13%, 42%);
     opacity: 0.7;
     line-height: 1.4rem;
