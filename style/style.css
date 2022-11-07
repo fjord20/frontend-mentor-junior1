@@ -39,7 +39,10 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 1fr 0.8fr;
+<<<<<<< HEAD
     grid-auto-flow: row dense;
+=======
+>>>>>>> 7a37b75 (update 2.1)
     grid-gap: 2rem;
     margin-top: 30px;
 }
@@ -117,8 +120,14 @@ nav ul {
     line-height: 1.5rem;
 }
 
+<<<<<<< HEAD
 .grid-item-3 {
     font-size: 1.5rem;
+=======
+.grid-item-3 p {
+    margin: 0;
+    font-size: 3.5rem;
+>>>>>>> 7a37b75 (update 2.1)
     font-weight: 800;
     text-align: start;
 }
@@ -135,6 +144,10 @@ nav ul {
 }
 
 .text-more p {
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> 7a37b75 (update 2.1)
     color: hsl(236, 13%, 42%);
     opacity: 0.7;
     line-height: 1.4rem;
@@ -156,15 +169,120 @@ nav ul {
 }
 
 .grid-item-5 {
-    background-color: red;
     
+
+}
+
+.card-01 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.image-01 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-retro-pcs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-discription {
+    margin: 0;
+    padding: 0;
+    color:  hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+    opacity: 0.7;
+}
+
+.number-01-01 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
+.title h2 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.1rem;
 }
 
 .grid-item-6 {
-    background-color: grey;
     
 }
+
+.card-02 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.image-02 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-top-laptops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.number-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-02-02 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
 .grid-item-7 {
-    background-color: lightpink;
+   
     
 }
+
+.card-03 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.image-03 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-gaming-growth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.number-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-03-03 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
