@@ -9,14 +9,14 @@ body {
 }
 
 main {
-    max-width: 80%;  
+    max-width: 95%;  
     max-height: 100vh;
     margin: 0 auto;
 }
 
 header {
     display: flex;
-    max-width: 80%;
+    max-width: 95%;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
@@ -30,21 +30,21 @@ header {
     list-style: none;
 }
 
-.menu {
+.menu-link {
    display: none;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr 1fr 0.8fr;
+    grid-template-rows: 0.5fr 0fr 0.8fr;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
 
 .grid-item-1 {
     grid-column: span 2;
-    max-height: 300px;
+    height: 20rem;
     background-image: url(/assets/images/image-web-3-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -59,7 +59,7 @@ header {
 .New {
     display: flex;
     flex-direction: column;
-    padding: 7%;
+    padding: 5%;
 }
 
 .New h1 {
@@ -70,7 +70,7 @@ header {
 
 .news-1 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 
@@ -87,7 +87,7 @@ header {
 
 .news-2 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 .news-2 h2 {
@@ -101,7 +101,7 @@ header {
 }
 
 .news-3 {
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 .news-3 h2 {
@@ -133,6 +133,7 @@ header {
 
 .text-more p {
     margin: 0;
+    
     padding-right: 5%;
     color: hsl(236, 13%, 42%);
     opacity: 0.7;
@@ -284,7 +285,6 @@ header {
         
     }
 
-
     .menu-link {
         width: 15%;
         height: 1.5rem;
@@ -301,6 +301,10 @@ header {
 
     .grid-item-2 {
         order: 4;
+    }
+
+    .grid-item-4 {
+        height: 80%;
     }
 
     .grid-item-5 {
@@ -324,12 +328,17 @@ header {
         padding-right: 8%;
         font-size: 0.8rem;
         line-height: 1.4rem;
-        margin-bottom: 2rem;
+        
     }
     
+    .read-more {
+        justify-content: flex-start;
+    }
+
     .btn_read_more {
         width: 50%;
         height: 2.5rem;
+        margin-top: 2rem;
     }
     
     .btn_read_more a {
@@ -387,12 +396,11 @@ header {
         
     } 
 
-    .grid-item-2:nth-child(2), .grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
-        margin-top: 1.5rem;
+     .grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
+        margin-top: 2rem;
       }
 
-    .grid-item-4:nth-child(4) {
-        margin-top: -0.5rem;
-    }
+    
+    
 
 }
