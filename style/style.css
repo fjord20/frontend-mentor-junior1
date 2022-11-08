@@ -23,11 +23,15 @@ header {
     margin-top: 4rem;
 }
 
-nav ul {
+.menu-row ul {
     display: flex;
     flex-direction: row;
     gap: 3rem;
     list-style: none;
+}
+
+.menu {
+   display: none;
 }
 
 .grid {
@@ -266,13 +270,27 @@ nav ul {
 }
 
 @media (max-width: 375px) { 
-    nav { 
+    .menu-row { 
         display: none;
     }
     
+    header {
+        align-items: center;
+    }
+
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
         grid-gap: 1rem;       
+        
+    }
+
+
+    .menu-link {
+        width: 15%;
+        height: 1.5rem;
+        background-image: url(/assets/images/icon-menu.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
         
     }
 
@@ -373,9 +391,8 @@ nav ul {
         margin-top: 1.5rem;
       }
 
- 
-      .grid-item-4:nth-child(4) {
+    .grid-item-4:nth-child(4) {
         margin-top: -0.5rem;
-      }
+    }
 
 }
