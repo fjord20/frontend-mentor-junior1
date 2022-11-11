@@ -23,17 +23,6 @@ header {
     margin-top: 4rem;
 }
 
-.cover {
-    display: none;
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 1;
-}
-
 .menu-row ul {
     display: flex;
     flex-direction: row;
@@ -81,10 +70,24 @@ li a {
     position: absolute;
     top: -255%;
     right: -83%;
-    width: 550%;
+    width: 790%;
+    height: 100vh;
+    
+}
+
+.right-cover { 
+    width: 70%;
     height: 100vh;
     background-color: hsl(36, 100%, 99%);
-    opacity: 1;
+    background-size: cover;
+  
+}
+
+.cover {
+    width: 30%;
+    height: 100vh;
+    background-color: hsl(0, 4%, 5%);
+    opacity: 0.5;
 }
 
 .menu-link-ver  {
@@ -95,6 +98,7 @@ li a {
 .menu-link-ver li {
     margin-bottom: 10%;
     font-size: 1.2rem;
+   
 }
 
 .grid {
@@ -349,21 +353,15 @@ li a {
     }
 
     .menu-link {
-        display: inline-block;
+        display: block;
         position: relative;
         width: 15%;
     }
 
-    .menu-link:active .dropdown-content {
+    .menu-link:hover .dropdown-content {
         display: flex;
-        flex-direction: column;  
+        flex-direction: row;  
     }
-
-    .dropdown-content:hover {
-        display: block; 
-    }
-
-
     .grid-item-1 {
         grid-column: span 1;
         background-image: url(/assets/images/image-web-3-mobile.jpg);
