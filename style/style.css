@@ -31,11 +31,8 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 100vh;
+    opacity: 1;
 }
-
-
 
 .menu-row ul {
     display: flex;
@@ -99,8 +96,6 @@ li a {
     margin-bottom: 10%;
     font-size: 1.2rem;
 }
-
-
 
 .grid {
     display: grid;
@@ -347,28 +342,34 @@ li a {
     }
 
     .grid {
-        grid-template-columns: repeat(auto-fill, minmax(80%, 1.5fr));
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: 2fr auto 0fr;
         grid-gap: 1rem;       
         
     }
-
 
     .menu-link {
         display: inline-block;
         position: relative;
         width: 15%;
-        
     }
 
-    .menu-link:hover .dropdown-content {
+    .menu-link:active .dropdown-content {
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
+
+    .dropdown-content:hover {
+        display: block; 
+    }
+
 
     .grid-item-1 {
         grid-column: span 1;
         background-image: url(/assets/images/image-web-3-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .grid-item-2 {
