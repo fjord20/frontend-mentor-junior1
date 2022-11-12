@@ -1,7 +1,13 @@
 @import url(/style/reset.css);
 
 body {
-    max-width: 1440px;
+    max-width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%;
+    bottom: 0;
     font-size: 15px;
     font-family: 'Inter-Regular', sans-serif;
     background-color: hsl(36, 100%, 99%); 
@@ -107,7 +113,6 @@ li a {
 
 .grid-item-1 {
     grid-column: span 2;
-    /*height: 400px;*/
     background-image: url(/assets/images/image-web-3-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -122,7 +127,7 @@ li a {
 .New {
     display: flex;
     flex-direction: column;
-    padding: 7%;
+    padding: 5%;
 }
 
 .New h1 {
@@ -192,7 +197,6 @@ li a {
 
 .text-more p {
     margin: 0;
-    padding-right: 7%;
     color: hsl(236, 13%, 42%);
     line-height: 1.4rem;
 }
@@ -219,7 +223,7 @@ li a {
 }
 
 .image-01 {
-    width: 33%;
+    width: 50%;
     margin-right: 1rem;
     background-image: url(/assets/images/image-retro-pcs.jpg);
     background-size: cover;
@@ -245,7 +249,7 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Bold';
     color: hsl(233, 8%, 79%);
 }
 
@@ -262,7 +266,7 @@ li a {
 }
 
 .image-02 {
-    width: 27%;
+    width: 50%;
     margin-right: 1rem;
     background-image: url(/assets/images/image-top-laptops.jpg);
     background-size: cover;
@@ -280,7 +284,7 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Bold';
     color: hsl(233, 8%, 79%);
 }
 
@@ -295,7 +299,7 @@ li a {
 }
 
 .image-03 {
-    width: 30%;
+    width: 50%;
     margin-right: 1rem;
     background-image: url(/assets/images/image-gaming-growth.jpg);
     background-size: cover;
@@ -313,7 +317,7 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Bold';
     color: hsl(233, 8%, 79%);
 }
 
