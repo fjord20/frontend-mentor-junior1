@@ -1,7 +1,7 @@
 @import url(/style/reset.css);
 
 body {
-    max-width: 100%;
+    max-width: 1440px;
     font-size: 15px;
     font-family: 'Inter-Regular', sans-serif;
     background-color: hsl(36, 100%, 99%); 
