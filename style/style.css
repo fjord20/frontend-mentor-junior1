@@ -3,9 +3,8 @@
 body {
     max-width: 100%;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
-    background-color: hsl(36, 100%, 99%);
-    
+    font-family: 'Inter-Regular', sans-serif;
+    background-color: hsl(36, 100%, 99%); 
 }
 
 main {
@@ -33,7 +32,6 @@ header {
 li a {
     text-decoration: none;
     color: hsl(236, 13%, 42%);
-    
 }
 
 .menu-link {
@@ -68,11 +66,10 @@ li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: -255%;
+    top: -275%;
     right: -83%;
-    width: 790%;
+    width: 800%;
     height: 100vh;
-    
 }
 
 .right-cover { 
@@ -80,7 +77,6 @@ li a {
     height: 100vh;
     background-color: hsl(36, 100%, 99%);
     background-size: cover;
-  
 }
 
 .cover {
@@ -98,13 +94,13 @@ li a {
 .menu-link-ver li {
     margin-bottom: 10%;
     font-size: 1.2rem;
-   
+    list-style: none;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr 1fr 0.8fr;
+    grid-template-rows: 1.5fr 0fr 0.6fr;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
@@ -184,11 +180,7 @@ li a {
 .grid-item-3 p {
     margin: 0;
     font-size: 3.5rem;
-    font-weight: 800; 
-}
-
-.grid-item-4 {
-
+    font-family: 'Inter-ExtraBold'; 
 }
 
 .read-more {
@@ -200,9 +192,8 @@ li a {
 
 .text-more p {
     margin: 0;
-    padding-right: 5%;
+    padding-right: 7%;
     color: hsl(236, 13%, 42%);
-    
     line-height: 1.4rem;
 }
 
@@ -219,11 +210,6 @@ li a {
     color: hsl(36, 100%, 99%);
     text-decoration: none;
     letter-spacing: 5px;
-}
-
-.grid-item-5 {
-    
-
 }
 
 .card-01 {
@@ -259,7 +245,7 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-weight: 700;
+    font-family: 'Inter-Regular';
     color: hsl(233, 8%, 79%);
 }
 
@@ -267,10 +253,6 @@ li a {
     margin: 0%;
     padding: 0%;
     font-size: 1.1rem;
-}
-
-.grid-item-6 {
-    
 }
 
 .card-02 {
@@ -298,15 +280,14 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-weight: 700;
+    font-family: 'Inter-Regular';
     color: hsl(233, 8%, 79%);
 }
 
 .grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
-        margin-top: 1.5rem;
-      }
+    margin-top: 1.5rem;
+}
     
-
 .card-03 {
     display: flex;
     flex-direction: row;
@@ -332,7 +313,7 @@ li a {
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    font-weight: 700;
+    font-family: 'Inter-Regular';
     color: hsl(233, 8%, 79%);
 }
 
@@ -406,7 +387,7 @@ li a {
     .btn_read_more a {
         letter-spacing: 2px;
         font-size: 0.7rem;
-        font-weight: 700;
+        font-family: 'Inter-Bold';
     }
 
     .New {
@@ -453,16 +434,38 @@ li a {
 
     .number-03-03 {
         font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-        
+        margin-bottom: 0.5rem; 
     } 
 
     .grid-item-2:nth-child(2), .grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
         margin-top: 1.5rem;
-      }
+    }
 
     .grid-item-4:nth-child(4) {
         margin-top: -0.5rem;
     }
 
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(/assets/fonts/static/Inter-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url(/assets/fonts/static/Inter-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(/assets/fonts/static/Inter-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter-Variablefont";
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
 }
