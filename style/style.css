@@ -100,14 +100,14 @@ li a {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr 0fr 0.6fr;
+    grid-template-rows: 1.5fr 1fr 0.8fr;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
 
 .grid-item-1 {
     grid-column: span 2;
-    max-height: 500px;
+    /*height: 400px;*/
     background-image: url(/assets/images/image-web-3-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -133,7 +133,7 @@ li a {
 
 .news-1 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 
@@ -150,7 +150,7 @@ li a {
 
 .news-2 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 .news-2 h2 {
@@ -164,7 +164,7 @@ li a {
 }
 
 .news-3 {
-    padding: 2rem 0%;
+    padding: 1rem 0%;
 }
 
 .news-3 h2 {
