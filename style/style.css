@@ -2,9 +2,9 @@
 
 body {
     max-width: 1200px;
-    min-height: 100%;
+    min-height: 100vh;
     position: absolute;
-    margin: 0 auto;
+    margin: 2rem auto;
     left: 0;
     right: 0;
     top: 0%;
@@ -24,7 +24,9 @@ header {
     max-width: 90%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
+
 }
 
 .menu-row ul {
@@ -43,7 +45,6 @@ li a {
    display: none;
 }
 
-
 .btn-menu {
     width: 100%;
     height: 1.5rem;
@@ -56,8 +57,8 @@ li a {
 
 .btn-close {
     position: absolute;
-    right: 15%;
-    top: 4%;
+    right: 8%;
+    top: 6%;
     width:  2rem;
     height: 2rem;
     border: none;
@@ -74,7 +75,7 @@ li a {
     top: -275%;
     right: -83%;
     width: 800%;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .right-cover { 
@@ -105,13 +106,14 @@ li a {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1.5fr 1fr 0.8fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.9fr;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
 
 .grid-item-1 {
     grid-column: span 2;
+    grid-row: span 2;
     background-image: url(/assets/images/image-web-3-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -120,13 +122,13 @@ li a {
 
 .grid-item-2 {
     background-color: hsl(240, 100%, 5%);
-    grid-row: span 2;
+    grid-row: span 3;
 }
 
 .New {
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    margin: 5%;
 }
 
 .New h1 {
@@ -137,7 +139,7 @@ li a {
 
 .news-1 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 1rem 0%;
+    padding: 2rem 0%;
 }
 
 
@@ -154,7 +156,7 @@ li a {
 
 .news-2 {
     border-bottom: 1px solid hsl(236, 13%, 42%);
-    padding: 1rem 0%;
+    padding: 2rem 0%;
 }
 
 .news-2 h2 {
@@ -183,7 +185,8 @@ li a {
 
 .grid-item-3 p {
     margin: 0;
-    font-size: 3.5rem;
+    padding-right: 1.5rem;
+    font-size: 3rem;
     font-family: 'Inter-ExtraBold'; 
 }
 
