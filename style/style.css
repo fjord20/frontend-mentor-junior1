@@ -7,7 +7,7 @@ html {
 body {
     max-width: 1200px;
     position: absolute;
-    margin: 1rem auto;
+    margin: 4rem auto;
     left: 0;
     right: 0;
     top: 0%;
@@ -149,6 +149,7 @@ li a {
 .news-1 h2 {
     color: hsl(36, 100%, 99%);
     margin-bottom: 1rem;
+    font-size: 1.2rem;
     font-family: 'Inter-Bold';
 }
 
@@ -166,6 +167,7 @@ li a {
 .news-2 h2 {
     color: hsl(36, 100%, 99%);
     margin-bottom: 1rem;
+    font-size: 1.2rem;
     font-family: 'Inter-Bold';
 }
 
@@ -181,6 +183,7 @@ li a {
 .news-3 h2 {
     color: hsl(36, 100%, 99%);
     margin-bottom: 1rem;
+    font-size: 1.2rem;
     font-family: 'Inter-Bold';
 }
 
@@ -223,7 +226,7 @@ li a {
     color: hsl(36, 100%, 99%);
     text-decoration: none;
     letter-spacing: 5px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Bold';
 }
 
 .card-01 {
