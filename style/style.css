@@ -1,0 +1,475 @@
+@import url(/style/reset.css);
+
+body {
+    max-width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%;
+    bottom: 0;
+    font-size: 15px;
+    font-family: 'Inter-Regular', sans-serif;
+    background-color: hsl(36, 100%, 99%); 
+}
+
+main {
+    max-width: 90%;  
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    max-width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.menu-row ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.menu-link {
+   display: none;
+}
+
+
+.btn-menu {
+    width: 100%;
+    height: 1.5rem;
+    border: none;
+    background-color: hsl(36, 100%, 99%);
+    background-image: url(/assets/images/icon-menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-close {
+    position: absolute;
+    right: 15%;
+    top: 4%;
+    width:  2rem;
+    height: 2rem;
+    border: none;
+    background-color: hsl(36, 100%, 99%);
+    background-image: url(/assets/images/icon-menu-close.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: -275%;
+    right: -83%;
+    width: 800%;
+    height: 100vh;
+}
+
+.right-cover { 
+    width: 70%;
+    height: 100vh;
+    background-color: hsl(36, 100%, 99%);
+    background-size: cover;
+}
+
+.cover {
+    width: 30%;
+    height: 100vh;
+    background-color: hsl(0, 4%, 5%);
+    opacity: 0.5;
+}
+
+.menu-link-ver  {
+    margin-top: 70%;
+    margin-left: 10%;
+}
+
+.menu-link-ver li {
+    margin-bottom: 10%;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1.5fr 1fr 0.8fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.grid-item-1 {
+    grid-column: span 2;
+    background-image: url(/assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.grid-item-2 {
+    background-color: hsl(240, 100%, 5%);
+    grid-row: span 2;
+}
+
+.New {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.New h1 {
+    margin: 0;
+    font-size: 2rem;
+    color:  hsl(35, 77%, 62%);
+}
+
+.news-1 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding: 1rem 0%;
+}
+
+
+.news-1 h2 {
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 1rem;
+}
+
+.news-1 p {
+    padding: 0%;
+    color: hsl(233, 8%, 79%);
+    line-height: 1.5rem;
+}
+
+.news-2 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding: 1rem 0%;
+}
+
+.news-2 h2 {
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 1rem;
+}
+
+.news-2 p {
+    color: hsl(233, 8%, 79%);
+    line-height: 1.5rem;
+}
+
+.news-3 {
+    padding: 1rem 0%;
+}
+
+.news-3 h2 {
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 1rem;
+}
+
+.news-3 p {
+    color: hsl(233, 8%, 79%);
+    line-height: 1.5rem;
+}
+
+.grid-item-3 p {
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: 'Inter-ExtraBold'; 
+}
+
+.read-more {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-more p {
+    margin: 0;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.4rem;
+}
+
+.btn_read_more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.btn_read_more a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.card-01 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.image-01 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-retro-pcs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-discription {
+    margin: 0;
+    padding: 0;
+    color:  hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+    opacity: 0.7;
+}
+
+.number-01-01 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-family: 'Inter-Bold';
+    color: hsl(233, 8%, 79%);
+}
+
+.title h2 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.1rem;
+}
+
+.card-02 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.image-02 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-top-laptops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.number-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-02-02 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-family: 'Inter-Bold';
+    color: hsl(233, 8%, 79%);
+}
+
+.grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
+    margin-top: 1.5rem;
+}
+    
+.card-03 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.image-03 {
+    width: 50%;
+    margin-right: 1rem;
+    background-image: url(/assets/images/image-gaming-growth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.number-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.number-03-03 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    font-family: 'Inter-Bold';
+    color: hsl(233, 8%, 79%);
+}
+
+@media (max-width: 375px) { 
+    .menu-row { 
+        display: none;
+    }
+    
+    header {
+        align-items: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: 2fr auto 0fr;
+        grid-gap: 1rem;       
+        
+    }
+
+    .menu-link {
+        display: block;
+        position: relative;
+        width: 15%;
+    }
+
+    .menu-link:hover .dropdown-content {
+        display: flex;
+        flex-direction: row;  
+    }
+    .grid-item-1 {
+        grid-column: span 1;
+        background-image: url(/assets/images/image-web-3-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .grid-item-2 {
+        order: 4;
+    }
+
+    .grid-item-5 {
+        order: 5;
+    }
+ 
+    .grid-item-6 {
+        order: 6;
+    }
+
+    .grid-item-7 {
+        order: 7;
+    }
+
+    .grid-item-3 p {
+        font-size: 2.4rem;
+        padding-right: 10%;
+    }
+  
+    .text-more p {
+        padding-right: 8%;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .btn_read_more {
+        width: 50%;
+        height: 2.5rem;
+    }
+    
+    .btn_read_more a {
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+        font-family: 'Inter-Bold';
+    }
+
+    .New {
+        padding-right: 10%;
+        font-size: 0.8rem;
+    }
+
+    .number-discription  {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        opacity: 0.7;
+    }
+    
+    .image-01 {
+        width: 33%;
+    }
+
+    .number-01-01  {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .title h2 {
+        margin: 0%;
+        padding: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .image-02 {
+        width: 26%;
+    }
+
+    .number-02-02  {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .image-03 {
+        width: 29%;
+        height: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .number-03-03 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem; 
+    } 
+
+    .grid-item-2:nth-child(2), .grid-item-7:nth-child(7), .grid-item-6:nth-child(6), .grid-item-5:nth-child(5) {
+        margin-top: 1.5rem;
+    }
+
+    .grid-item-4:nth-child(4) {
+        margin-top: -0.5rem;
+    }
+
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(/assets/fonts/static/Inter-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url(/assets/fonts/static/Inter-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(/assets/fonts/static/Inter-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter-Variablefont";
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
